@@ -1,0 +1,22 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: cloud-eureka
+  output:
+    ansi:
+      enabled: detect
+eureka:
+  client:
+    register-with-eureka: false   #是否将自己注册到Eureka服务
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true #将自己的ip注册到eureka中
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
+    hostname: localhost
+  server:
+    enable-self-preservation: true #是否开启自我保护
+    eviction-interval-timer-in-ms: 60000 #清理间隔

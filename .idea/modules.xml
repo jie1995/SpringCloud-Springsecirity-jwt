@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-authen/cloud-authen.iml" filepath="$PROJECT_DIR$/cloud-authen/cloud-authen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-common/cloud-common.iml" filepath="$PROJECT_DIR$/cloud-common/cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config/cloud-config.iml" filepath="$PROJECT_DIR$/cloud-config/cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-data-mysql/cloud-data-mysql.iml" filepath="$PROJECT_DIR$/cloud-data-mysql/cloud-data-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" filepath="$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-dashboard/cloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/cloud-hystrix-dashboard/cloud-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-user/cloud-user.iml" filepath="$PROJECT_DIR$/cloud-user/cloud-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mc.iml" filepath="$PROJECT_DIR$/.idea/mc.iml" />
+    </modules>
+  </component>
+</project>

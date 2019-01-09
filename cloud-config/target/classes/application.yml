@@ -1,0 +1,36 @@
+server:
+  port: 8765
+spring:
+  application:
+    name: cloud-config
+  output:
+    ansi:
+      enabled: detect
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitlab.com/maomiyibian/cloud-config.git
+          username: junyunxiao
+          password: directxjy921
+          search-paths: /cloud-config
+  rabbitmq:
+    host: 114.116.83.151
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+logging:
+  level:
+    root: debug
+    com.microservice.cloud.config: debug
